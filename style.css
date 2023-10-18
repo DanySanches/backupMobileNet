@@ -1,0 +1,47 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+  box-shadow:5px 5px 5px grey;
+}
+.headingDiv
+{
+  float: none ; 
+  background: white ; 
+  padding: 10px; 
+  border-radius: 20px; 
+  color: black;
+  box-shadow:5px 5px 5px grey;
+}
+.headingDiv2
+{
+  font-size: 18px ;
+}
+.resultToTag
+{
+  box-shadow:5px 5px 5px grey;
+  font-size: 20px;
+}
+.resultToTag span
+{
+ /*sequências de espaços em branco serão recolhidas em um único espaço em branco.
+  O texto será quebrado quando necessário e terá quebras de linha. */
+  white-space: pre-line;
+}
+.copyRightFooter {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color:grey;
+  line-height: 3;
+  text-align: center;
+}
+canvas 
+{
+  border:5px solid white;
+  border-radius:20px;
+  box-shadow:5px 5px 5px grey;
+  margin-top: 350px; 
+}
